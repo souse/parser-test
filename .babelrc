@@ -1,0 +1,8 @@
+{
+  // "presets": [],
+  "plugins": [
+    "@vue/babel-plugin-jsx",
+    ["./plugins/babel-plugin-test-zy.js", { "libraryName": "lodash" }]
+  ],
+  "comments": false
+}
